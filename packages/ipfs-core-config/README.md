@@ -1,8 +1,7 @@
 # ipfs-core-utils <!-- omit in toc -->
 
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://protocol.ai)
-[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
-[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai)
+[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech/)
 [![Travis CI](https://flat.badgen.net/travis/ipfs/js-ipfs)](https://travis-ci.com/ipfs/js-ipfs)
 [![Codecov branch](https://img.shields.io/codecov/c/github/ipfs/js-ipfs/master.svg?style=flat-square)](https://codecov.io/gh/ipfs/js-ipfs)
 [![Dependency Status](https://david-dm.org/ipfs/js-ipfs/status.svg?path=packages/ipfs-core-config)](https://david-dm.org/ipfs/js-ipfs?path=packages/ipfs-core-config)

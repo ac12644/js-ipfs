@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://js.ipfs.io" title="JS IPFS">
+<a href="https://js.ipfs.tech" title="JS IPFS">
   <img src="https://ipfs.io/ipfs/Qme6KJdKcp85TYbLxuLV7oQzMiLremD7HMoXLZEmgo6Rnh/js-ipfs-sticker.png" alt="IPFS in JavaScript logo" width="244" />
 </a>
 </p>
@@ -61,9 +61,9 @@ console.info(cid)
 * Look into the [js-ipfs-examples](https://github.com/ipfs-examples/js-ipfs-examples) to learn how to spawn an IPFS node in Node.js and in the Browser
 * Read the [Core API docs](https://github.com/ipfs/js-ipfs/tree/master/docs/core-api) to see what you can do with an IPFS node
 * Head over to https://proto.school to take interactive tutorials that cover core IPFS APIs
-* Check out https://docs.ipfs.io for tips, how-tos and more
-* See https://blog.ipfs.io for news and more
-* Need help? Please ask 'How do I?' questions on https://discuss.ipfs.io
+* Check out https://docs.ipfs.tech for tips, how-tos and more
+* See https://blog.ipfs.tech for news and more
+* Need help? Please ask 'How do I?' questions on https://discuss.ipfs.tech
 
 ### Browser CDN
 
@@ -109,7 +109,7 @@ b. ensure quality, and
 c. reduce possible future bugs.
 - **Add tests**. There can never be enough tests.
 
-Find out about chat channels, the IPFS newsletter, the IPFS blog, and more in the [IPFS community space](https://docs.ipfs.io/community/).
+Find out about chat channels, the IPFS newsletter, the IPFS blog, and more in the [IPFS community space](https://docs.ipfs.tech/community/).
 
 ## License
 

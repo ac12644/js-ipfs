@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://ipfs.io"><img width="650px" src="https://ipfs.io/ipfs/QmQJ68PFMDdAsgCZvA1UVzzn18asVcf7HVvCDgpjiSCAse" alt="IPFS http client lib logo" /></a>
+  <a href="https://ipfs.tech"><img width="650px" src="https://ipfs.io/ipfs/QmQJ68PFMDdAsgCZvA1UVzzn18asVcf7HVvCDgpjiSCAse" alt="IPFS http client lib logo" /></a>
 </h1>
 
 <h3 align="center">The JavaScript HTTP RPC API client library for IPFS implementations.</h3>
@@ -80,11 +80,10 @@ Both the Current and Active LTS versions of Node.js are supported. Please see [n
 * Read the [docs](https://github.com/ipfs/js-ipfs/tree/master/docs)
 * Look into the [examples](https://github.com/ipfs-examples/js-ipfs-examples) to learn how to spawn an IPFS node in Node.js and in the Browser
 * Consult the [Core API docs](https://github.com/ipfs/js-ipfs/tree/master/docs/core-api) to see what you can do with an IPFS node
-* Visit https://dweb-primer.ipfs.io to learn about IPFS and the concepts that underpin it
 * Head over to https://proto.school to take interactive tutorials that cover core IPFS APIs
-* Check out https://docs.ipfs.io for tips, how-tos and more
-* See https://blog.ipfs.io for news and more
-* Need help? Please ask 'How do I?' questions on https://discuss.ipfs.io
+* Check out https://docs.ipfs.tech for tips, how-tos and more
+* See https://blog.ipfs.tech for news and more
+* Need help? Please ask 'How do I?' questions on https://discuss.ipfs.tech
 
 ## Usage
 
@@ -104,7 +103,7 @@ Alternatively it can be an object which may have the following keys:
 
 | Name | Type | Default | Description |
 | ---- | ---- | ------- | ----------- |
-| url | `String` or `URL` or `Multiaddr` | `'http://localhost:5001/api/v0'` | A URL that resolves to a running instance of the IPFS [HTTP RPC API](https://docs.ipfs.io/reference/http/api/) |
+| url | `String` or `URL` or `Multiaddr` | `'http://localhost:5001/api/v0'` | A URL that resolves to a running instance of the IPFS [HTTP RPC API](https://docs.ipfs.tech/reference/http/api/) |
 | protocol | `String` | `'http'` | The protocol to used (ignored if url is specified) |
 | host | `String` | `'localhost'` | The host to used (ignored if url is specified) |
 | port | `number` | `5001` | The port to used (ignored if url is specified) |
@@ -228,7 +227,7 @@ Returns an async iterable that yields `{ path, content }` objects suitable for p
 import { create, urlSource } from 'ipfs-http-client'
 const ipfs = create()
 
-const file = await ipfs.add(urlSource('https://ipfs.io/images/ipfs-logo.svg'))
+const file = await ipfs.add(urlSource('https://example.com/ipfs-logo.svg'))
 console.log(file)
 
 /*
