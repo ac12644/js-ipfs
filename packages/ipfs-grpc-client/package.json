@@ -60,7 +60,7 @@
     "ipfs-unixfs": "^6.0.9",
     "it-first": "^1.0.4",
     "it-pushable": "^2.0.1",
-    "@multiformats/multiaddr": "^10.0.0",
+    "@multiformats/multiaddr": "^10.3.3",
     "multiformats": "^9.5.1",
     "p-defer": "^4.0.0",
     "protobufjs": "^6.10.2",

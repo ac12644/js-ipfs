@@ -67,7 +67,7 @@
     "it-reduce": "^1.0.5",
     "joi": "^17.2.1",
     "just-safe-set": "^4.0.2",
-    "@multiformats/multiaddr": "^10.0.0",
+    "@multiformats/multiaddr": "^10.3.3",
     "multiformats": "^9.5.1",
     "parse-duration": "^1.0.0",
     "stream-to-it": "^0.2.2",

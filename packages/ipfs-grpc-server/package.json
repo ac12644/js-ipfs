@@ -52,7 +52,7 @@
     "it-peekable": "^1.0.2",
     "it-pipe": "^2.0.3",
     "it-pushable": "^2.0.1",
-    "@multiformats/multiaddr": "^10.0.0",
+    "@multiformats/multiaddr": "^10.3.3",
     "nanoid": "^3.1.23",
     "protobufjs": "^6.10.2",
     "uint8arrays": "^3.0.0",
