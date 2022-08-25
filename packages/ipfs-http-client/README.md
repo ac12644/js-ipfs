@@ -349,6 +349,23 @@ const ipfs = create({
   }
 })
 ```
+### Using Infura
+
+If you wish to send custom headers using Infura, for example, the Authorization header. You can use the config to do so:
+
+```js
+const auth =
+    'Basic ' + Buffer.from(INFURA_PROJECT_ID + ':' + INFURA_SECRET_KEY).toString('base64');
+
+const ipfs = create({
+  host: 'ipfs.infura.io',
+  port: 5001,
+  protocol: 'https',
+  headers: {
+    authorization: auth,
+  },
+})
+```
 
 ### Global Timeouts
 
