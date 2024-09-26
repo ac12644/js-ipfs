@@ -350,6 +350,23 @@ const ipfs = create({
   }
 })
 ```
+### Infura Header
+
+If you wish to send infura headers with each request made by this library, for example, the Authorization header. You can use the config to do so:
+
+```js
+const auth =
+    'Basic ' + Buffer.from(INFURA_ID + ':' + INFURA_SECRET_KEY).toString('base64');
+
+const client = ipfsClient.create({
+    host: 'ipfs.infura.io',
+    port: 5001,
+    protocol: 'https',
+    headers: {
+        authorization: auth,
+    },
+});
+```
 
 ### Infura Header
 
